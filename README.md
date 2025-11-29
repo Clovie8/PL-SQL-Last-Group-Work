@@ -48,7 +48,8 @@ The policy was verified by running three sequential INSERT statements for a sing
 
     Insert 3: The trigger executes the alert logic, resulting in a new record in security_alerts with failed_count = 3.
 
-
+![image alt](https://github.com/Clovie8/PL-SQL-Last-Group-Work/blob/main/Q3%20Insert%20Attempt%20data.png)
+![image alt](https://github.com/Clovie8/PL-SQL-Last-Group-Work/blob/main/Q3%20security%20alerts%20Result.png)
 
 
 ### 2: Hospital Management Package Implementation
@@ -109,3 +110,6 @@ A comprehensive test script was created to validate every component:
     Counting Test: count_admitted was called before and after admissions, confirming the count changed from 0 to 2.
 
     Display Test: show_all_patients was called, and the returned cursor was iterated through using a LOOP and FETCH, displaying all patient details, including the updated admitted_status.
+
+
+![image alt](https://github.com/Clovie8/PL-SQL-Last-Group-Work/blob/main/Q4%20Testing%20Result.png)
